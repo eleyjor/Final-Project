@@ -1,0 +1,13 @@
+.display-1{
+
+    color:purple;
+    text-shadow: 2px 3px 2px limegreen;
+}
+
+.break{
+    height:25px;
+}
+
+.table-hover tr:hover td{
+    background-color:purple;
+}
