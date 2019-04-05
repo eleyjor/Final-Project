@@ -1,7 +1,7 @@
 div{
     width: 150px;
     height: 200px;
-    background-color: black;
+    background-color: purple;
     margin: 10px;
 }
 
@@ -16,9 +16,7 @@ div{
 }
 
 .break{
-
     height:25px;
-
 }
 
 .table-hover tr:hover td{
