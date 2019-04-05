@@ -7,18 +7,3 @@ div{
 
 
 
-
-
-.display-1{
-
-    color: red;
-    text-shadow: 3px 3px 2px black;
-}
-
-.break{
-    height:25px;
-}
-
-.table-hover tr:hover td{
-    background-color: gray
-}
