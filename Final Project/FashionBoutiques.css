@@ -1,0 +1,314 @@
+
+
+
+.banner {
+  height: auto;
+  width: 100%;
+  max-height: 50%;
+  max-width: 100%;
+  min-height: 20%;
+  min-width: 30%;
+  background-image: url("https://media.socastsrm.com/wordpress/wp-content/blogs.dir/705/files/2017/11/womanstanding-e1510704248908.jpg");
+}
+
+
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 1px solid #b07000;
+    border-radius: 8px;
+    background: #ffb800;
+    background:"-webkit-gradient"(linear, left top, left bottom, from(#ffb800), to(#ff00ff));
+    background: -moz-linear-gradient(top, #ffb800, #ff00ff);
+    background: linear-gradient(to bottom, #ffb800, #ff00ff);
+    -webkit-box-shadow: #ffc000 0px 0px 40px 0px;
+    -moz-box-shadow: #ffc000 0px 0px 40px 0px;
+    box-shadow: #ffc000 0px 0px 40px 0px;
+    text-shadow: #7e5000 1px 1px 1px;
+    font: normal normal bold 20px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:hover,
+.button:focus {
+    border: 1px solid #fca000;
+    background: #ffdd00;
+    background: "-webkit-gradient"(linear, left top, left bottom, from(#ffdd00), to(#ff00ff));
+    background: -moz-linear-gradient(top, #ffdd00, #ff00ff);
+    background: linear-gradient(to bottom, #ffdd00, #ff00ff);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #b07000;
+    background: "-webkit-gradient"(linear, left top, left bottom, from(#b07000), to(#ff00ff));
+    background: -moz-linear-gradient(top, #b07000, #ff00ff);
+    background: linear-gradient(to bottom, #b07000, #ff00ff);
+}
+.button:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-size: 100% 100%;
+}
+
+/* navbar */
+.navbar {
+  background-color: #ff00ff;
+}
+.navbar .navbar-brand {
+  color: #fffcff;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+  color: #fbf4fb;
+}
+.navbar .navbar-text {
+  color: #fffcff;
+}
+.navbar .navbar-text a {
+  color: #fbf4fb;
+}
+.navbar .navbar-text a:hover,
+.navbar .navbar-text a:focus {
+  color: #fbf4fb; 
+}
+.navbar .navbar-nav .nav-link {
+  color: #fffcff;
+  border-radius: .25rem;
+  margin: 0 0.25em;
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+  color: #fbf4fb;
+}
+.navbar .navbar-nav .dropdown-menu {
+  background-color: #ff00ff;
+  border-color: #ff00ff;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-item {
+  color: #fffcff;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-item:hover,
+.navbar .navbar-nav .dropdown-menu .dropdown-item:focus,
+.navbar .navbar-nav .dropdown-menu .dropdown-item.active {
+  color: #fbf4fb;
+  background-color: #ff00ff;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-divider {
+  border-top-color: #ff00ff;
+}
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+  color: #fbf4fb;
+  background-color: #ff00ff;
+}
+.navbar .navbar-toggle {
+  border-color: #ff00ff;
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+  background-color: #ff00ff;
+}
+.navbar .navbar-toggle .navbar-toggler-icon {
+  color: #fffcff;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+  border-color: #fffcff;
+}
+.navbar .navbar-link {
+  color: #fffcff;
+}
+.navbar .navbar-link:hover {
+  color: #fbf4fb;
+}
+
+@media (max-width: 575px) {
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #fffcff;
+  }
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #fbf4fb;
+  }
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #fbf4fb;
+    background-color: #ff00ff;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #fffcff;
+  }
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #fbf4fb;
+  }
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #fbf4fb;
+    background-color: #ff00ff;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #fffcff;
+  }
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #fbf4fb;
+  }
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #fbf4fb;
+    background-color: #ff00ff;
+  }
+}
+
+@media (max-width: 1199px) {
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #fffcff;
+  }
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #fbf4fb;
+  }
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #fbf4fb;
+    background-color: #ff00ff;
+  }
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+  color: #fffcff;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+  color: #fbf4fb;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+  color: #fbf4fb;
+  background-color: #ff00ff;
+}
+.navbar-default {
+  background-color: #F8F8F8;
+  border-color: #E7E7E7;
+}
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin:16px;
+    width:200px;
+  }
+  
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    background-color: #ff00ff;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  span.price {
+    float: right;
+    color: grey;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  } 
+
+
+.event_section{
+  width:100%;
+  height:auto;
+  float:left;
+  margin-top: 50px;
+}
+
+.event_section.event_one{
+  width:280px;
+  height:auto;
+  padding: 15px 7px 8px;
+  background-color: #ff00ff;
+  border-radius:7px;
+  color:whitesmoke;
+
+}
+
