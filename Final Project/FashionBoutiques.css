@@ -1,3 +1,56 @@
+button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px 11px;
+    border: 2px solid #cc00cc;
+    border-radius: 24px;
+    background: #ff00ff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff00ff), to(#cc0000));
+    background: -moz-linear-gradient(top, #ff00ff, #cc0000);
+    background: linear-gradient(to bottom, #ff00ff, #cc0000);
+    -webkit-box-shadow: #ff00ff 0px 0px 40px 0px;
+    -moz-box-shadow: #ff00ff 0px 0px 40px 0px;
+    box-shadow: #ff00ff 0px 0px 40px 0px;
+    text-shadow: #800080 1px 1px 1px;
+    font: italic normal bold 16px georgia;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase
+}
+.button:hover {
+    border: 2px solid #ff00ff;
+    background: #ff00ff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff00ff), to(#f50000));
+    background: -moz-linear-gradient(top, #ff00ff, #f50000);
+    background: linear-gradient(to bottom, #ff00ff, #f50000);
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase
+}
+.button:active {
+    background: #cc00cc;
+    background: -webkit-gradient(linear, left top, left bottom, from(#cc00cc), to(#cc0000));
+    background: -moz-linear-gradient(top, #cc00cc, #cc0000);
+    background: linear-gradient(to bottom, #cc00cc, #cc0000);
+    text-transform: uppercase
+}
+.button:focus {
+    text-transform: uppercase
+}
+.button:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABSUlEQVRIibXVPUpDQRAH8F9CCBZiGUWsxSNYiJWNvRew0BOI9xC8gAfwHmohYieKkCDBShDEL8Jqse/h5pkNiXkODDvLDPOfna9toOkfqXQeMvpQh1x9QbNOuYE2DrGYKG9wrCZawhu+KtwpopiJG4XQwUIBuIcDPOBzhsAfsc3vGmyNeM1febV0nj7rasbIhyht05KfcF83QEoBZ3UDVKt/XhdAqzjTCWzioi6AXIqu8VqD/9BKLilYwCU2pnUoNklfDLLfqihLoCCmqQowQE8cwl7B3eTex4vY5qWf7LreEYflBOtYHmObpVyKYL44bw0XfSqQchdVuyiIG3VV3CnTFHyAXXGWQq6L4A7vhqd8HBPTOFfxkx22I7EGXayM0E9qn/3RPvxsxf2K3Sg5a58r2mlh/Iy1jM1E9rkUtbFpsvSMs//fT/8bDO90f0PgGSEAAAAASUVORK5CYII=") no-repeat left center transparent;
+    background-size: 100% 100%;
+}
 
 
 
